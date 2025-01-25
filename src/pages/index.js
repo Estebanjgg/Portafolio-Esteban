@@ -79,19 +79,22 @@ export default function HomePage() {
         )}
       </Box>
 
-      
+      {/* Sección Sobre mí */}
       <Box id="about" p={4} sx={{ marginBottom: "4rem" }}>
-        <About /> 
+        <About /> {/* Llamamos al componente About */}
       </Box>
-      
+
+      {/* Sección Cursos */}
       <Box id="courses" p={4} sx={{ marginBottom: "4rem" }}>
         <Courses />
       </Box>
-      
+
+      {/* Sección Proyectos */}
       <Box id="projects" p={4} sx={{ marginBottom: "4rem" }}>
         <Projects />
       </Box>
-      
+
+      {/* Sección Contacto */}
       <Box id="contact" p={4} sx={{ marginBottom: "4rem" }}>
         <Contact />
       </Box>
